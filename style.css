@@ -72,6 +72,22 @@ header {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
+/* NEW CODE: This adds space above the contact info */
+.contact-info {
+    margin-top: 3rem; 
+}
+
+.email-link {
+    font-weight: 700;
+    color: var(--primary-color);
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+.email-link:hover {
+    text-decoration: underline;
+}
+
 footer {
     margin-top: 2rem;
     font-size: 0.85rem;
