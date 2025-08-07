@@ -95,7 +95,7 @@ footer {
 
 @media (max-width: 768px) {
     .logo-img {
-        max-width: 180px; /* Reduced max width for smaller screens */
+        max-width: 210px; /* Reduced max width for smaller screens */
     }
 
     .tagline {
