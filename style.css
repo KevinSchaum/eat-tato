@@ -34,7 +34,7 @@ header {
 }
 
 .logo-img {
-    max-width: 300px; /* Adjust max width for desktop */
+    max-width: 360px; /* Adjust max width for desktop */
     height: auto;
     margin: 0 auto 2rem;
     display: block;
