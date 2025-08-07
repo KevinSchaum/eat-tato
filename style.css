@@ -1,9 +1,9 @@
 :root {
-    --primary-color: #f76f00; /* A vibrant sweet potato orange */
-    --secondary-color: #558B2F; /* A dark, earthy green */
+    --primary-color: #f76f00; /* Vibrant Orange from the sweet potato */
+    --secondary-color: #5d9a44; /* Brighter Green from the leaves */
+    --light-green: #d1e8c1;    /* Lighter Green from the fields */
     --background-color: #ffffff;
     --text-color: #333333;
-    --light-gray: #f4f4f4;
 }
 
 * {
@@ -33,15 +33,15 @@ header {
     margin-bottom: 3rem;
 }
 
-.logo {
-    font-size: 3rem;
-    font-weight: 700;
-    color: var(--primary-color);
-    letter-spacing: -2px;
+.logo-img {
+    max-width: 250px;
+    height: auto;
+    margin: 0 auto;
+    display: block;
 }
 
 .content {
-    background: var(--light-gray);
+    background: var(--light-green); /* Using the light green from your logo */
     padding: 4rem 2rem;
     border-radius: 12px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
@@ -51,7 +51,7 @@ header {
     font-size: 2.25rem;
     font-weight: 700;
     margin-bottom: 1rem;
-    color: var(--secondary-color);
+    color: var(--secondary-color); /* Using the brighter green from your logo */
 }
 
 .description {
@@ -61,7 +61,7 @@ header {
 }
 
 .coming-soon {
-    background: var(--primary-color);
+    background: var(--primary-color); /* Using the vibrant orange from your logo */
     color: #fff;
     font-weight: 700;
     display: inline-block;
@@ -72,14 +72,13 @@ header {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-/* NEW CODE: This adds space above the contact info */
 .contact-info {
     margin-top: 3rem; 
 }
 
 .email-link {
     font-weight: 700;
-    color: var(--primary-color);
+    color: var(--primary-color); /* Using the vibrant orange from your logo */
     text-decoration: none;
     font-size: 1.1rem;
 }
@@ -95,8 +94,8 @@ footer {
 }
 
 @media (max-width: 768px) {
-    .logo {
-        font-size: 2.5rem;
+    .logo-img {
+        max-width: 180px;
     }
 
     .tagline {
