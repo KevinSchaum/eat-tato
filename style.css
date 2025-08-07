@@ -95,4 +95,14 @@ footer {
 
 @media (max-width: 768px) {
     .logo-img {
-        max
+        max-width: 180px; /* Reduced max width for smaller screens */
+    }
+
+    .tagline {
+        font-size: 1.75rem;
+    }
+
+    .content {
+        padding: 2.5rem 1rem;
+    }
+}
